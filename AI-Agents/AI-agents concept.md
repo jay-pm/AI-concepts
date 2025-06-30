@@ -1,6 +1,8 @@
 **Whats an AI agent?**
   An AI model capable of reasoning, planning, and acting on a set of actions by interacting with its environment.
 
+**Formal definition:** An agent is a system that leverages an AI model to interact with its environment to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions (often via external tools) to fulfill tasks.
+
 AI agent have two main parts: 
 1. The brain: The AI model that handles reasoning and planning. It decides which actions to take based on the situation.
 2. The body: Representing everything the agent is able to do, through tools.
