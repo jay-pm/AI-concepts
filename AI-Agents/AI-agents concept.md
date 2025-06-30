@@ -9,5 +9,3 @@ AI agent have two main parts:
 
 These systems are agentic, because they have agency, which means they can interact with the real world, using these capabilities and tools.
 
-![image](https://github.com/user-attachments/assets/cd51729f-ae43-4bd6-a694-ae78dca94b2d)
-
