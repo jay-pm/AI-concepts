@@ -9,3 +9,10 @@ AI agent have two main parts:
 
 These systems are agentic, because they have agency, which means they can interact with the real world, using these capabilities and tools.
 
+The engineering divide the work: the AI team will build the brain (model), the integration team will develop the tools, and the systems team will create the orchestration layer.
+
+Criteria for using AI agents:
+1. require complex decision making
+2. require heavy reliance on unstructured data
+3. Have difficult to maintain rules
+4. require adaptive problem solving
