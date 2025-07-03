@@ -1,5 +1,5 @@
 <span style="background:green"> ## AI Systems with OpenAI</span>
-<span style="color:blue">Blue Text</span>  
+<span style="color📗</span>
 <span style="color:blue">**Common Error Types:**</span>
 1. InternalServerError, APIConnectionError, APITimeoutError: These errors are usually due to server or connection issues. Solutions include checking your connection, waiting, and retrying, or contacting support.
 2. RateLimitError, ConflictError: These occur when request limits are exceeded. You can solve this by reducing request size or frequency.
