@@ -9,8 +9,9 @@
 **TRY & EXCEPT**:
 To manage exceptions, use try and except blocks. This allows your program to continue running even when an error occurs.
 
+
+```python
 # Set up your OpenAI API key
-'''python
 client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
 # Use the try statement
@@ -24,4 +25,4 @@ try:
 # Use the except statement
 except openai.AuthenticationError as e:
     print("Please double check your authentication key and try again, the one provided is not valid.")
-'''
+```
