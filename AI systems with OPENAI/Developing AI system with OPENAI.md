@@ -10,7 +10,8 @@
 To manage exceptions, use try and except blocks. This allows your program to continue running even when an error occurs.
 
 # Set up your OpenAI API key
-'''client = OpenAI(api_key="<OPENAI_API_TOKEN>")
+'''python
+client = OpenAI(api_key="<OPENAI_API_TOKEN>")
 
 # Use the try statement
 try: 
