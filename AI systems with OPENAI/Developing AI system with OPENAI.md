@@ -43,3 +43,8 @@ def get_response(model, message):
 - Batching Requests: Instead of sending multiple requests in a loop, we can send them in batches. This reduces the frequency of requests and helps avoid rate limits.
 - Token Limits: We can measure and reduce tokens in a request using the tiktoken library to ensure they stay within the allowed limits.
 These techniques help build more robust and efficient AI systems by managing API usage effectively.
+
+### Function calling
+- Can be used to enhance the responses by integrating with external APIs, such as for a weather chatbot calling an API to return current temperatures at specific locations
+- Allows our AI system to interact programmatically with other functions and applications
+
