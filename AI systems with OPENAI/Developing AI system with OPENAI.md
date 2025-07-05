@@ -1,5 +1,5 @@
-<span style="background:green"> ## AI Systems with OpenAI</span>
-<span style="color📗</span>
+<span style="background:green">## AI Systems with OpenAI</span>
+<span style="color:blue">Blue text</span>
 <span style="color:blue">**Common Error Types:**</span>
 1. InternalServerError, APIConnectionError, APITimeoutError: These errors are usually due to server or connection issues. Solutions include checking your connection, waiting, and retrying, or contacting support.
 2. RateLimitError, ConflictError: These occur when request limits are exceeded. You can solve this by reducing request size or frequency.
@@ -45,6 +45,7 @@ def get_response(model, message):
 These techniques help build more robust and efficient AI systems by managing API usage effectively.
 
 ### Function calling
+- Function calling enables the use of custom functions as input to the OpenAI endpoint, resulting in improved consistency of the responses.
 - Can be used to enhance the responses by integrating with external APIs, such as for a weather chatbot calling an API to return current temperatures at specific locations
 - Allows our AI system to interact programmatically with other functions and applications
 
