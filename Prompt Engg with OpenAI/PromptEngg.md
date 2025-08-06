@@ -7,5 +7,5 @@ Every message has one of three roles:
  - Assistant message: response to the user prompt
 
 **Control Parameters:**  
-**temparature** controls the response/answer's randomness. 2 for highest randomness, 1 for No randomness
+**temparature** controls the response/answer's randomness. 2 for highest randomness, 1 for No randomness  
 **max_tokens** controls the response length
