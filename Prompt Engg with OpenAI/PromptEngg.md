@@ -1,4 +1,4 @@
-**Prompt engineering** is art of crafting instructions given to LLM to get desired result.  
+**Prompt engineering** is about crafting clear and concise instructions/prompts that guide the behavior of a language model (LLM) efficiently to produce the desired output.
 
 **Message Roles:**  
 Every message has one of three roles:  
@@ -9,3 +9,5 @@ Every message has one of three roles:
 **Control Parameters:**  
 **temparature** controls the response/answer's randomness. 2 for highest randomness, 1 for No randomness  
 **max_tokens** controls the response length
+
+
