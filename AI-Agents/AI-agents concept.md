@@ -37,3 +37,19 @@ Agent is core to competitive advantage
 No existing solution meets specialized requirements  
 Need complete control overagent's behavior and evolution  
 
+**The Agentic Trinity: Model, Tools, and Orchestration**  
+An AI agent is made of three components: Model, Tools, and Orchestration layer  
+The Model—it understands language, reasons through a given problem, and outlines steps to solve it.  
+Tools—they connect the agent to the outside world, accessing data, performing actions, and making things happen.  
+Orchestration layer—it coordinates everything, keeping the agent moving forward towards its goal. Let’s zoom in on orchestration. We defined the orchestration layer as a continuous loop that controls how an agent processes information, remembers information, and makes decisions.  
+The orchestration layer maintains memory, state, reasoning, and planning.  
+While there are different architectures by which this happens, a useful framework for understanding orchestration is the **Thought-Action-Observation** cycle.  
+
+
+**The TAO cycle:**  
+TAO (Thought-Action-Observation) cycle is the agent's problem-solving method - a continuous cycle where each observation informs the next thought.  
+Thought: The model decides the next step based on the user prompt.  
+Action: The agent takes an action, by calling the tools at their disposal.  
+Observation: The model reflects on the response from the tool. Feeding into the next set of thoughts and actions  
+
+
