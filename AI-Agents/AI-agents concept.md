@@ -16,3 +16,24 @@ Criteria for using AI agents:
 2. require heavy reliance on unstructured data
 3. Have difficult to maintain rules
 4. require adaptive problem solving
+
+Build Vs Buy:  
+
+Off-the-Shelf Tools  
+Tackling a specific domain or use-case (e.g. AI-assisted coding)  
+Mature, well-tested solution already exists in market  
+Want to minimize maintenance overhead  
+
+Low-Code/No-Code Platforms:  
+Need some customization but not complete control  
+Workflows are moderately complex but follow common patterns  
+Want business users to modify the agent without engineering help  
+Need to integrate with existing systems quickly
+
+Agent Frameworks (Build):  
+Use case involves proprietary systems  
+Handling sensitive data  
+Agent is core to competitive advantage  
+No existing solution meets specialized requirements  
+Need complete control overagent's behavior and evolution  
+
