@@ -20,3 +20,15 @@ Every message has one of three roles:
 - Use well-structured delimited prompts
   - Use delimiters (e.g., triple backticks, parentheses, brackets) to structure prompts clearly, especially when including input data for tasks like text summarization. This technique helps the model identify and process the input correctly. Mention which delimiters are used.
   - Embedd variables into prompts using Python's f-strings, allowing for dynamic prompt creation.
+ 
+**Type of Prompts**  
+- Zero-shot prompting :
+    - Providing a prompt without any example
+    - model generates response based on it's knowledge
+    - ideal for quick and uncomplicated tasks
+- One-shot prompting :
+    - provide the model a single example
+    - useful for consistent formatting or style
+- Few-shot prompting (more than one example)
+    - provide more than one example
+    - powerful for contextual tasks
