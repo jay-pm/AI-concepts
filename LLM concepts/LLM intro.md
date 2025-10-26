@@ -16,3 +16,10 @@ Multi-shot learning requires more examples than few-shot but still significantly
 For example, in zero-shot learning, a model might identify a zebra as a "striped horse" even without having seen a zebra during training, demonstrating its ability to generalize from known information to new, related tasks.  
 
 These advanced techniques are crucial for efficiently adapting LLMs to new tasks, especially when dealing with limited labeled data, thereby overcoming one of the significant challenges in building effective LLMs.
+
+The foundational techniques for training Large Language Models (LLMs), focuses on pre-training methods like next word prediction and masked language modeling. These methods are crucial for developing models that can understand and generate human-like text.
+- Next Word Prediction: This technique involves training a model to predict the next word in a sentence based on the context provided by the preceding words. It's a form of supervised learning where the model uses labeled data to learn the relationship between sequences of words.
+- Masked Language Modeling: This method trains a model to predict a word that has been intentionally hidden (masked) in a sentence. This approach helps the model learn the context of words in a sentence, improving its ability to understand language nuances.
+- Application in Real-World Scenarios: Explaining masked language modeling to stakeholders and predicting the next word in sentences related to weather and customer support feedback.  
+For example, in next word prediction, given the input "What is the weather like", the model might predict "today?" as the next word, based on training data patterns.  
+These pre-training techniques lay the groundwork for fine-tuning LLMs for specific tasks, enabling organizations to leverage existing models rather than building from scratch.
