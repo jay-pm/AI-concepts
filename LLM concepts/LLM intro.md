@@ -24,13 +24,11 @@ The foundational techniques for training Large Language Models (LLMs), focuses o
 For example, in next word prediction, given the input "What is the weather like", the model might predict "today?" as the next word, based on training data patterns.  
 These pre-training techniques lay the groundwork for fine-tuning LLMs for specific tasks, enabling organizations to leverage existing models rather than building from scratch.
 
-The transformer architecture has a transformative impact on language models, particularly in enhancing Large Language Models (LLMs). Below are some key insights on this:
+The **transformer** architecture has a transformative impact on language models, particularly in enhancing Large Language Models (LLMs). Below are some key insights on this:
 - Transformers' Core Components: Transformers consist of four main components: pre-processing, positional encoding, encoders, and decoders. Each plays a crucial role in understanding and generating text.  
-For example, in processing the input text "Jane, who lives in New York and works as a software," transformers convert it into numerical form, use positional encoding to track word order, and then through encoders and decoders, predict the next words to complete the sentence.
-The Attention Mechanism: A standout feature of transformers, the attention mechanism, allows the model to focus on different parts of the input simultaneously. This capability is crucial for understanding the context and relationships between words, no matter their position in a sentence.
+For example, in processing the input text "Jane, who lives in New York and works as a software," transformers convert it into numerical form, use positional encoding to track word order, and then through encoders and decoders, predict the next words to complete the sentence.  
+- The Attention Mechanism: A standout feature of transformers, the attention mechanism, allows the model to focus on different parts of the input simultaneously. This capability is crucial for understanding the context and relationships between words, no matter their position in a sentence.  
+- Handling Long-Range Dependencies: Transformers excel at processing long-range dependencies within text, a challenge for traditional sequential models. This ability enables more accurate and contextually aware language models.
+- Parallel Processing: Unlike traditional models that process text sequentially, transformers can handle multiple parts of the text at once, significantly speeding up the understanding and generation of text.
 
-Handling Long-Range Dependencies: You learned how transformers excel at processing long-range dependencies within text, a challenge for traditional sequential models. This ability enables more accurate and contextually aware language models.
-
-Parallel Processing: Unlike traditional models that process text sequentially, transformers can handle multiple parts of the text at once, significantly speeding up the understanding and generation of text.
-
-Through these insights, you gained an understanding of why transformers are a key technology in advancing LLMs, enabling them to process and generate human-like text more efficiently and accurately.
+Through these insights, we can understand why transformers are a key technology in advancing LLMs, enabling them to process and generate human-like text more efficiently and accurately.
