@@ -1,6 +1,6 @@
 The fundamental concepts of data and its significance in decision-making:
 
-Data Context: You explored how data gains value with context, which includes metadata like when or where data was collected. Context is essential for understanding the meaning behind the data.
+Data Context: Data gains value with context, which includes metadata like when or where data was collected. Context is essential for understanding the meaning behind the data.
 
 Types of Data:
 
